@@ -122,22 +122,23 @@
 // const penulisanJam = (jam) => {
 //    let detik1 = jam.substring(0,1);
 //    let detik2 = jam.substring(2,8);
+
 //    if (detik1 === '5' && detik2 === '00') {
-//      return 'jam lima tepat x ' + "{" + detik2 + '}' + ' menit'
+//      return detik1 + ':' + detik2 + ' = ' + 'jam lima tepat x ' + "{" + detik2 + '}' + ' menit'
 //    }else if (detik1 === '5' && detik2 === '01') {
-//     return "jam lima lebih satu menit";
+//     return detik1 + ':' + detik2 + ' = ' + "jam lima lebih satu menit";
 //    }else if (detik1 === '5' && detik2 === '15') {
-//     return "jam lima lebih seperempat x " + "{" + detik2 + "}" + " menit";
+//     return detik1 + ':' + detik2 + ' = ' + "jam lima lebih seperempat x " + "{" + detik2 + "}" + " menit";
 //    }else if (detik1 === '5' && detik2 === '29') {
-//     return "jam " + detik1 + " lebih " + detik2 + " menit";
+//     return detik1 + ':' + detik2 + ' = ' + "jam " + detik1 + " lebih " + detik2 + " menit";
 //    }else if (detik1 === '5' && detik2 === '30') {
-//     return "jam setengah enam x " + detik2 + " menit"
+//     return detik1 + ':' + detik2 + ' = ' + "jam setengah enam x " + detik2 + " menit"
 //    }else if (detik1 === '5' && detik2 === '31') {
-//     return "Jam enam kurang dua puluh sembilan menit"
+//     return detik1 + ':' + detik2 + ' = ' + "Jam enam kurang dua puluh sembilan menit"
 //    }else if (detik1 === '5' && detik2 === '45') {
-//     return "Jam enam kurang seperempat x " + "{" + detik2 + "}" + " menit"
+//     return detik1 + ':' + detik2 + ' = ' + "Jam enam kurang seperempat x " + "{" + detik2 + "}" + " menit"
 //    }else if (detik1 === '5' && detik2 === '59') {
-//     return "Jam enam kurang satu menit";
+//     return detik1 + ':' + detik2 + ' = ' + "Jam enam kurang satu menit";
 //    }else {
 //     return "maaf"
 //    }
